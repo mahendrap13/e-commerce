@@ -1,0 +1,78 @@
+
+user schema
+  - fullname
+  - username
+  - email
+  - password
+  - contact
+  - otp
+  - status
+  - avatar
+  - role
+  - createdAt
+
+1. Sign up
+    - Fullame,
+    - username,
+    - email,
+    - password
+    - contact
+
+2. sign in
+    - email/username
+    - password
+
+    or 
+
+    - signin with otp
+
+3. update user
+
+
+=========================
+
+1. category - crud
+   category schema -
+    - Name
+    - description 
+    - image
+    - status
+    - createdAt
+
+==========================
+
+2. subcategory - crud
+    - name 
+    - category id
+    - description
+    - image
+    - status
+    - createdAt
+
+===========================
+
+3. product - crud
+    - name
+    - userID
+    - categoryID
+    - subcategoryID
+    - price
+    - quantity
+    - thumbnail
+    - images 
+    - stock
+    - shortDescription
+    - description
+    - status
+    - createdAt
+
+========================
+4. Cart - 
+    - userid
+    - productid
+    - name 
+    - price
+    - quantity
+    - image
+
+    
